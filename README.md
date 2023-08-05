@@ -8,7 +8,7 @@ Il gioco √® pensato per essere giocato tra un utente e il computer. L'utente pu√
 - Il sasso batte le forbici.
 - Le forbici battono la carta.
 - La carta batte il sasso.
-- 
+  
 <b>Come giocare</b>
 Scarica il codice sorgente del gioco dal [link del repository](https://github.com/FabioAranzulla/sasso-carta-forbice.git).
 Assicurati di avere un browser web aggiornato per giocare correttamente.
