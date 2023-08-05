@@ -1,1 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  color: #f5f5f5;
+  font-size: 25px;
+}
 
+body {
+  background-color: #222;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sasso,
+.carta,
+.forbice {
+  background-color: #222;
+  border: none;
+}
+
+.sasso:hover,
+.carta:hover,
+.forbice:hover {
+  cursor: pointer;
+  background-color: #00ff00;
+}
+
+.img-choose {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.img-choose img {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+.vs {
+  display: flex;
+  align-self: center;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.userChoose,
+.computerChoose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userChoose img,
+.computerChoose img {
+  width: 50px;
+  height: 50px;
+}
+
+.endGame p {
+  font-weight: bold;
+}
+
+.endGame,
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+.reset button {
+  background-color: #222;
+  border: 1px solid #f5f5f5;
+  padding: 5px 15px;
+}
+
+.reset button:hover {
+  background-color: #ff0000;
+  border: 1px solid #f5f5f5;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 35px;
+  }
+  .img-choose img {
+    width: 120px;
+    height: 120px;
+  }
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 25px;
+  }
+  .img-choose img {
+    width: 100px;
+    height: 100px;
+  }
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

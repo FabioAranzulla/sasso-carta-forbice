@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <main>
+      <div class="title">Sasso Carta Forbice</div>
+      <div class="img-choose">
+        <button class="sasso" onclick="game('sasso')">
+          <img src="/img/sasso.png" alt="sasso" />
+        </button>
+        <button class="carta" onclick="game('carta')">
+          <img src="/img/carta.png" alt="carta" />
+        </button>
+        <button class="forbice" onclick="game('forbice')">
+          <img src="/img/forbice.png" alt="forbice" />
+        </button>
+      </div>
+      <div class="game">
+        <div class="userChoose"></div>
+        <span class="vs">VS</span>
+        <div class="computerChoose"></div>
+      </div>
+      <div class="endGame"></div>
+      <div class="counter">
+        <p>Vittorie: <span class="win"></span>&nbsp;</p>
+        <p>Sconfitte: <span class="lose"></span>&nbsp;</p>
+        <p>Pareggi: <span class="tie"></span></p>
+      </div>
+      <div class="reset">
+        <button onclick="restart()">Reset</button>
+      </div>
+    </main>
     <script src="/script.js"></script>
   </body>
 </html>
