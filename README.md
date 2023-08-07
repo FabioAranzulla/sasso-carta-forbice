@@ -1,5 +1,5 @@
 # sasso-carta-forbice
-![screen](https://github.com/FabioAranzulla/sasso-carta-forbice/assets/104132983/a858b975-599e-45f1-92a6-fa4eafc33e50)
+![screen](https://github.com/FabioAranzulla/sasso-carta-forbice/assets/104132983/3d7bf962-909e-4163-af3e-12a46099102e)
 
 <b>Descrizione del gioco</b><br>
 Questo è un semplice gioco "Sasso Carta Forbice" implementato utilizzando HTML, CSS e JavaScript.<br>
