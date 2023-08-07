@@ -54,41 +54,41 @@ function game(userChoice) {
   let result = "";
 
   if (userChoice === "sasso") {
-    userChoose.innerHTML = `<img src="/img/sasso.png"></img><span>${userChoice}</span>`;
+    userChoose.innerHTML = `<img src="img/sasso.png"></img><span>${userChoice}</span>`;
     if (computer === "carta") {
-      computerChoose.innerHTML = `<img src="/img/carta.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/carta.png"></img><span>${computer}</span>`;
       result = "Hai perso!";
     } else if (computer === "forbice") {
-      computerChoose.innerHTML = `<img src="/img/forbice.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/forbice.png"></img><span>${computer}</span>`;
       result = "Hai vinto!";
     } else {
-      computerChoose.innerHTML = `<img src="/img/sasso.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/sasso.png"></img><span>${computer}</span>`;
       result = "Hai pareggiato!";
     }
   }
   if (userChoice === "carta") {
-    userChoose.innerHTML = `<img src="/img/carta.png"></img><span>${userChoice}</span>`;
+    userChoose.innerHTML = `<img src="img/carta.png"></img><span>${userChoice}</span>`;
     if (computer === "sasso") {
-      computerChoose.innerHTML = `<img src="/img/sasso.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/sasso.png"></img><span>${computer}</span>`;
       result = "Hai vinto!";
     } else if (computer === "carta") {
-      computerChoose.innerHTML = `<img src="/img/carta.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/carta.png"></img><span>${computer}</span>`;
       result = "Hai pareggiato!";
     } else {
-      computerChoose.innerHTML = `<img src="/img/forbice.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/forbice.png"></img><span>${computer}</span>`;
       result = "Hai perso!";
     }
   }
   if (userChoice === "forbice") {
-    userChoose.innerHTML = `<img src="/img/forbice.png"></img><span>${userChoice}</span>`;
+    userChoose.innerHTML = `<img src="img/forbice.png"></img><span>${userChoice}</span>`;
     if (computer === "sasso") {
-      computerChoose.innerHTML = `<img src="/img/sasso.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/sasso.png"></img><span>${computer}</span>`;
       result = "Hai perso!";
     } else if (computer === "carta") {
-      computerChoose.innerHTML = `<img src="/img/carta.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/carta.png"></img><span>${computer}</span>`;
       result = "Hai vinto!";
     } else {
-      computerChoose.innerHTML = `<img src="/img/forbice.png"></img><span>${computer}</span>`;
+      computerChoose.innerHTML = `<img src="img/forbice.png"></img><span>${computer}</span>`;
       result = "Hai pareggiato!";
     }
   }
